@@ -1,0 +1,45 @@
+/* 路由前进时的入场/离场动画 */
+.justifyPush-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.justifyPush-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms;
+}
+
+.justifyPush-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.justifyPush-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 500ms;
+}
+
+/* 路由后退时的入场/离场动画 */
+.justifyPop-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.justifyPop-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms;
+}
+
+.justifyPop-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.justifyPop-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 500ms;
+}

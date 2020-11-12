@@ -1,0 +1,92 @@
+.am-card-body {
+  position: static !important;
+}
+
+.headIcon {
+  color: #8d8c8cf1 !important;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.headFrame {
+  margin: 0.7rem 0.7rem;
+}
+
+.headSpaceColor {
+  color: #9c9c9cf1;
+}
+
+.headNameStyle {
+  color: #FB7299;
+  font-size: 1.5rem;
+}
+
+.ManOutlined {
+  color: #30b1ec;
+  margin-left: 0.3rem;
+}
+
+.WomanOutlined {
+  color: #ff5585;
+  margin-left: 0.3rem;
+}
+
+.headLevel {
+  margin-left: 0.3rem;
+  font-weight: 600;
+  color: #ff640a;
+  text-shadow: #ff450df3 1.5px 0 0;
+  letter-spacing: 2px;
+}
+
+.headMember {
+  color: #ffffff;
+  background-color: #FB7299;
+  border-radius: 4px;
+  padding: 0px 7px;
+  font-size: 10px;
+}
+
+.headDynamicFrame {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.headborder {
+  width: 1px;
+  height: 1.5rem;
+  background-color: #dbdbdba9;
+}
+
+.BGgradient {
+  width: 1rem;
+  height: 3rem;
+  /* 浏览器不支持时显示 */
+  background-color: #ffffff;
+  background-image: linear-gradient(to top, #ebd3d3, #f3ebeb, #ffffff);
+}
+
+.memberBackground {
+  background-color: #FB7299;
+  margin-left: -8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.memberFontColor {
+  flex: 1;
+  color: white;
+  margin: 0.5rem 1rem;
+}
+
+.memberBackground svg {
+  color: white;
+  margin-right: 1rem;
+}

@@ -1,0 +1,46 @@
+.scrollStyle {
+  overflow: auto;
+  flex: 1;
+}
+
+div ::-webkit-scrollbar {
+  width: 0 !important
+}
+
+.gridFrame {
+  width: 25%;
+  font-size: 0.8rem;
+}
+
+.titleFont {
+  font-weight: 600;
+  margin: 1.5rem 0 0 1rem;
+}
+
+.VedioBarIcon {
+  font-size: 1.6rem;
+  color: #30b1ec !important;
+  margin: 1rem 0 0.3rem 0;
+}
+
+.creatCenter {
+  font-size: 1.6rem;
+  color: #ecc61d !important;
+  margin: 1rem 0 0.3rem 0;
+}
+
+.ServiceIcon {
+  font-size: 1.6rem;
+  color: #FB7299 !important;
+  margin: 1rem 0 0.3rem 0;
+}
+
+.am-list-content {
+  font-size: 0.9rem !important;
+}
+
+.listIcon svg {
+  font-size: 1.2rem;
+  color: #FB7299 !important;
+  margin-left: 0.6rem;
+}

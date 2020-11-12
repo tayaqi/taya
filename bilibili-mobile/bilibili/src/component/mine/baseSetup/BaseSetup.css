@@ -1,0 +1,4 @@
+.contentFrame {
+  overflow: auto;
+  flex: 1;
+}

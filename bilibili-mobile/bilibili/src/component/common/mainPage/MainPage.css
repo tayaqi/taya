@@ -1,0 +1,66 @@
+.outFrame {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.Home {
+  width: 23px;
+  height: 24px;
+  background: url('../../../assets/icons.png') no-repeat -84px -84px
+}
+
+.Home-sel {
+  width: 37px;
+  height: 34px;
+  background: url('../../../assets/icons.png') no-repeat -141px -78px
+}
+
+.Channel {
+  width: 23px;
+  height: 24px;
+  background: url('../../../assets/icons.png') no-repeat -84px -211px
+}
+
+.Channel-sel {
+  width: 37px;
+  height: 40px;
+  background: url('../../../assets/icons.png') no-repeat -141px -203px
+}
+
+.Tendencise {
+  width: 24px;
+  height: 24px;
+  background: url('../../../assets/icons.png') no-repeat -84px -1234px
+}
+
+.Tendencise-sel {
+  width: 33px;
+  height: 34px;
+  background: url('../../../assets/icons.png') no-repeat -140px -1231px
+}
+
+.Member {
+  width: 24px;
+  height: 19px;
+  background: url('../../../assets/icons.png') no-repeat -84px -1044px
+}
+
+.Member-sel {
+  width: 37px;
+  height: 39px;
+  background: url('../../../assets/icons.png') no-repeat -141px -1032px
+}
+
+.Mine {
+  width: 24px;
+  height: 27px;
+  background: url('../../../assets/icons.png') no-repeat -86px -530px
+}
+
+.Mine-sel {
+  width: 35px;
+  height: 38px;
+  background: url('../../../assets/icons.png') no-repeat -143px -525px
+}
