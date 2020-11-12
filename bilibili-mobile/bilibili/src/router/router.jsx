@@ -4,16 +4,17 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import { RouterConfig, getSceneConfig } from './routerConfig'
 import './router.css'
 
-let oldLocation = null
+let oldLocation = ''
 
 const Routes = withRouter(({ location, history }) => {
   let classNames = ''
-  oldLocation = location;
   if (history.action === 'PUSH') {
     classNames = getSceneConfig(location) + 'Push'
-  } else {
+  } else if (history.action === 'POP' && oldLocation) {
     classNames = getSceneConfig(oldLocation) + 'Pop'
   }
+  oldLocation = location
+
   return <TransitionGroup childFactory={child => React.cloneElement(child, { classNames })}>
     <CSSTransition timeout={500}
       key={location.pathname}>

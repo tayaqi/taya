@@ -1,5 +1,6 @@
 import MainPage from '../component/common/mainPage/MainPage'
 import BaseSetup from '../component/mine/baseSetup/BaseSetup'
+import Teenager from '../component/mine/teenager/Teenager'
 
 
 /**
@@ -9,7 +10,8 @@ import BaseSetup from '../component/mine/baseSetup/BaseSetup'
  */
 export const RouterConfig = [
   { path: '/', component: MainPage, animation: "justify" },
-  { path: '/BaseSetup', component: BaseSetup, animation: "justify" }
+  { path: '/BaseSetup', component: BaseSetup, animation: "justify" },
+  { path: '/Teenager', component: Teenager, animation: "align" }
 ]
 
 /**

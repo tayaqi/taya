@@ -46,4 +46,4 @@ class BaseSetup extends React.Component {
   }
 }
 
-export default CreatBackTitle(BaseSetup)
+export default CreatBackTitle(BaseSetup, "设置")

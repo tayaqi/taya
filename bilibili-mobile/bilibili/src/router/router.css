@@ -43,3 +43,49 @@
   transform: translateX(100%);
   transition: all 500ms;
 }
+
+
+.alignPush-enter {
+  opacity: 1;
+  transform: translateY(100%);
+}
+
+.alignPush-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms;
+}
+
+.alignPush-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.alignPush-exit-active {
+  opacity: 0;
+  transform: translateY(0);
+  transition: all 500ms;
+}
+
+/* 路由后退时的入场/离场动画 */
+.alignPop-enter {
+  opacity: 0;
+  transform: translateY(0);
+}
+
+.alignPop-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms;
+}
+
+.alignPop-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.alignPop-exit-active {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 500ms;
+}
