@@ -1,7 +1,7 @@
 import React from 'react'
 import { List } from 'antd-mobile'
 import './BaseSetup.css'
-import CreatBackTitle from '../../../utils/util'
+import CreatBackTitle from '../../common/highBackTitle/HighBackTitle'
 
 class BaseSetup extends React.Component {
 

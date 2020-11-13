@@ -1,6 +1,7 @@
 import MainPage from '../component/common/mainPage/MainPage'
 import BaseSetup from '../component/mine/baseSetup/BaseSetup'
-import Teenager from '../component/mine/teenager/Teenager'
+import ModelChange from '../component/mine/modelchange/ModelChange'
+import CusService from '../component/mine/cusService/CusService'
 
 
 /**
@@ -11,7 +12,9 @@ import Teenager from '../component/mine/teenager/Teenager'
 export const RouterConfig = [
   { path: '/', component: MainPage, animation: "justify" },
   { path: '/BaseSetup', component: BaseSetup, animation: "justify" },
-  { path: '/Teenager', component: Teenager, animation: "align" }
+  { path: '/Teenager', component: ModelChange, animation: "align" },
+  { path: '/ClassModel', component: ModelChange, animation: "align" },
+  { path: '/CusService', component: CusService, animation: "justify" },
 ]
 
 /**
